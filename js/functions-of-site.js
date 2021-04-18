@@ -3,13 +3,11 @@ function toggleDropDown() {
     const bb = document.getElementById("the-drop-down-menu-container");
     const cc = window.getComputedStyle(bb);
 
-    if (cc.top == "-500px") {
+    if (cc.opacity == "0") {
 
-        bb.style.top = "0";
-    }
-
-    else {
-
-        bb.style.top = "-500px";
+        bb.style.opacity = "1";
+    } else {
+        
+        bb.style.opacity = "0";
     }
 }
