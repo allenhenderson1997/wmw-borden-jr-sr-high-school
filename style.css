@@ -6,8 +6,47 @@
 body {
 
     margin: 0;
+    background-color: #d8d8d8;
+}
+main {
+
+    width: 75%;
+    padding: 0 30px;
+    margin: auto;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    background-color: white;
 }
 
+main h1 {
+
+    text-align: center;
+}
+
+h1 {
+
+    font-family: Arial Narrow;
+    margin-bottom: 50px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-transform: capitalize;
+}
+
+p {
+    font-family: Tahoma;
+    font-size: 18px;
+}
+
+.quote {
+
+    font-size: 25px;
+    font-family: Tahoma;
+    color: lightgray;
+    box-shadow: 6px 6px 6px #f2f2f2;
+    width: 75%;
+    margin: auto;
+}
 #header-image {
 
     width: 100vw;
@@ -60,19 +99,18 @@ body {
     display: flex;
     opacity: 0;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     margin-top: 0;
     padding: 10px;
     position: fixed;
     transition: all .5s ease-in-out;
-    width: 100%;
+    width: 30%;
+    right: 0;
 }
 
 #the-drop-down-menu-container ul {
 
     list-style-type: none;
-    border-right: 1px solid gray;
-    padding-right: 60px;
 }
 
 #the-drop-down-menu-container ul:last-child {
@@ -92,24 +130,50 @@ body {
     font-family: Arial Black;
     color: #000;
     cursor: pointer;
+    transition: all .2s ease-in-out;
 }
 
-h1 {
+#the-drop-down-menu-container ul li a:hover {
 
-    font-family: Arial Narrow;
-    margin-bottom: 50px;
-    margin-top: 2px;
-    margin-left: 2px;
-    margin-right: 2px;
-    text-transform: capitalize;
+    color: #fff;
 }
 
-.quote {
 
-    font-size: 25px;
-    font-family: Tahoma;
-    color: lightgray;
-    box-shadow: 6px 6px 6px #f2f2f2;
-    width: 75%;
+
+/* Contact page styling */
+
+.contact-options {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin: auto;
+    width: 75%;
+    border: 1px solid lightgray;
+}
+
+.contact-options li {
+
+    list-style-type: none;
+}
+
+.contact-options li img {
+
+    width: 120px;
+    height: auto;
+}
+
+.social-media-icons {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-media-icons img {
+
+    width: 120px;
+    height: auto;
+    padding: 20px;
+    cursor: pointer;
 }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact BJSHS | Borden Jr./Sr. High School</title>
+    <meta name="description" content="Borden High School">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/functions-of-site.js"></script>
+</head>
+<body>
+    <header>
+        <div id="everything-in-the-header-exclude-header-image">
+            <img id="logo" src="img/borden-logo.png" />
+        <ul id="desk-nav">
+            <li><a href="index.html">home</a></li>
+            <li><a href="school-mission.html">our mission</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a id="drop-down-menu-handle" href="javascript:void()" onclick="toggleDropDown()">...</a>
+            </li>
+        </ul>
+        </div>
+        
+        <!--Drop Down Menu-->
+        <ul id="the-drop-down-menu-container">
+            <ul id="the-drop-down-group-one">
+                <li><a href="other/social-media.html">Social Media</a></li>
+                <li><a href="other/school-in-action.html">School In Action</a></li>
+                <li><a href="other/staff-directory.html">Staff Directory</a></li>
+                <li><a href="other/student-handbook.html">Student Handbook</a></li>
+                <li><a href="other/counseling.html">Counseling</a></li>
+            </ul>
+            <ul id="the-drop-down-group-two">
+                <li><a href="other/school-calendar.html">School Calendar</a></li>
+                <li><a href="">Infinite Campus</a></li>
+                <li><a href="other/school-clubs.html">Clubs</a></li>
+                <li><a href="other/school-activies.html">Activities</a></li>
+            </ul>
+        </ul>
+        <img id="header-image" src="img/header-image.png" />
+
+        
+    </header>
+
+    <main>
+        <h1>contact the school</h1>
+
+        <ul class="contact-options">
+            <li><img src="data:image/png;base64,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" alt=""></li>
+            <li><img src="https://i.pinimg.com/originals/2b/b4/28/2bb428b7e4aa39078a119deccacae6f3.png" alt=""></li>
+            <li><img src="https://cdn3.iconfinder.com/data/icons/job-resume-6/66/9-512.png" alt=""></li>
+        </ul>
+    </main>
+</body>
+</html>
