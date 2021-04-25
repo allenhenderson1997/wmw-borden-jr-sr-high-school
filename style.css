@@ -183,27 +183,70 @@ p {
 .all-borden-staff-members {
 
     display: flex;
-    flex-direction: column;
-}
-
-.all-borden-staff-members div ul li { /* Styling for all the list items of the staff directory */
-
-    list-style-type: none;
-    box-shadow: 0 5px 2px 0 #000;
-    padding: 10px;
-    display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.principal li img {
+.staff-member-card {
 
-    float: left;
+    width: 300px;
+    height: auto;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
 }
 
-.principal li ul li,
-.assistant-principal li ul li {
+.staff-member-card h2 {
 
-    box-shadow: none;
+    text-align: center;
+    font-family: Arial Black;
+    font-weight: bolder;
+    color: blue;
 }
+
+.staff-member-card img {
+
+    width: 220px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.staff-member-card-info {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.staff-member-card-info span {
+
+    font-family: Tahoma;
+    padding: 20px 0;
+}
+
+.smaller-job-title:first-child {
+
+    font-size: 20px;
+}
+
+.staff-member-card-info span:first-child {
+
+    font-size: 40px;
+}
+
+/* Individual Styling for staff */
+
+
+/* End Individual Stling for staff */
+
+
 
 /* End Staff Directory */
