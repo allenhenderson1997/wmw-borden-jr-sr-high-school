@@ -190,7 +190,7 @@ p {
 
 .staff-member-card {
 
-    width: 300px;
+    width: 200px;
     height: auto;
     border: 2px solid gray;
     display: flex;
@@ -198,7 +198,7 @@ p {
     flex-wrap: wrap;
     flex-direction: column;
     padding: 20px;
-    margin: 10px;
+    margin: 5px;
 }
 
 .staff-member-card h2 {
@@ -242,10 +242,17 @@ p {
     font-size: 40px;
 }
 
-/* Individual Styling for staff */
+/* All Teachers styling */
 
+.all-borden-teachers {
 
-/* End Individual Stling for staff */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* End All Teachers styling */
 
 
 
